@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="interactions"
+  >
+    <h1>
+      Intro to React
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </div>
+  <div
+    className="table"
+  />
+  <div
+    className="interactions"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      More
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  type="button"
+>
+   Give me More 
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form>
+  <input
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+     Search 
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-row"
+  >
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      <h3>
+        Book:
+      </h3>
+       
+      <a>
+        1
+      </a>
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+       
+      <h3>
+        Author:
+      </h3>
+       
+      1
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+       
+      <h3>
+        points:
+      </h3>
+       
+      2
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+       
+      <h3>
+        No. of Comments:
+      </h3>
+       
+      1
+    </span>
+    <br />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+  <div
+    className="table-row"
+  >
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      <h3>
+        Book:
+      </h3>
+       
+      <a>
+        2
+      </a>
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+       
+      <h3>
+        Author:
+      </h3>
+       
+      2
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+       
+      <h3>
+        points:
+      </h3>
+       
+      2
+    </span>
+    <br />
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+       
+      <h3>
+        No. of Comments:
+      </h3>
+       
+      1
+    </span>
+    <br />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Dismiss
+    </button>
+  </div>
+</div>
+`;
